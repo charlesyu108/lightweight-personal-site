@@ -1,0 +1,63 @@
+body {
+    margin: 10%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1, h3{
+    font-family: 'Playfair Display', serif;
+}
+
+footer {
+    display: block;
+}
+
+a:link {
+    color : #00a ;
+    background-color : white ;
+}
+a:visited {
+    color : #00a ;
+    background-color : white ;
+}
+a:hover {
+    color : #000 ;
+    background-color : #8dc ;
+}
+
+.container-top {
+   text-align: center;
+}
+
+.container-right {
+    float: left;
+    max-width: 50%;
+}
+
+.container-left {
+    float: left;
+}
+
+.banner-pic{
+    max-width: 100%;
+}
+
+.profile-pic {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .container-right {
+        float: left;
+        max-width: 100%;
+    }
+}
+
+@media handheld {
+    .container-right {
+        float:left;
+        max-width: 100%;
+    }
+}
