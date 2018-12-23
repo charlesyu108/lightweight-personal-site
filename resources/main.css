@@ -7,10 +7,6 @@ h1, h3{
     font-family: 'Playfair Display', serif;
 }
 
-footer {
-    display: block;
-}
-
 a:link {
     color : #00a ;
     background-color : white ;
@@ -37,6 +33,13 @@ a:hover {
     float: left;
 }
 
+.container-bottom{
+    margin-top: 1em;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
 .banner-pic{
     max-width: 100%;
 }
@@ -46,6 +49,11 @@ a:hover {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer {
+    font-size: 0.7em;
+    text-align:center;
 }
 
 @media screen and (max-width: 800px) {
